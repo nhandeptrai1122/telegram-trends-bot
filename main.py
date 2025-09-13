@@ -36,8 +36,8 @@ CHAT_ID = os.getenv('CHAT_ID', 'YOUR_CHAT_ID_HERE')
 PORT = int(os.getenv('PORT', 8080))
 
 # Bot settings - TEST MODE
-CHECK_INTERVAL_MINUTES = 1   # Test với 1 phút
-SEARCH_THRESHOLD = 100000    # Test với 100K
+CHECK_INTERVAL_MINUTES = 30   # Test với 1 phút
+SEARCH_THRESHOLD = 500000    # Test với 100K
 GEO_LOCATION = 'US'
 KEYWORDS_DB_FILE = 'notified_keywords.json'
 
