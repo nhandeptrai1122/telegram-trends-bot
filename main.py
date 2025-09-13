@@ -26,8 +26,8 @@ CHAT_ID = os.getenv('CHAT_ID', 'YOUR_CHAT_ID_HERE')
 PORT = int(os.getenv('PORT', 8080))
 
 # Bot settings
-CHECK_INTERVAL_MINUTES = 15  # Kiểm tra mỗi 15 phút
-SEARCH_THRESHOLD = 1000000   # 1 triệu tìm kiếm
+CHECK_INTERVAL_MINUTES = 1  # Kiểm tra mỗi 15 phút
+SEARCH_THRESHOLD = 100000   # 1 triệu tìm kiếm
 GEO_LOCATION = 'US'          # United States
 KEYWORDS_DB_FILE = 'notified_keywords.json'
 
